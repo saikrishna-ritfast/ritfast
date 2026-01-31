@@ -1,14 +1,17 @@
 import React from 'react'
 import Sidebar from '../shell/Sidebar'
 import Navbar from '../shell/Navbar'
+import styles from '../styles/shellStyles/Sidebar.module.css'
 
 const layout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div>
+        <div className={styles.mainLayout} >
             <Sidebar />
-            <main className='' >
+            <main className={styles.content}>
                 <Navbar />
-                {children}
+                <div className={styles.children}>
+                    {children}
+                </div>
             </main>
         </div>
     )

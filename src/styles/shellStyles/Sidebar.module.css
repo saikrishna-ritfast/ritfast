@@ -1,0 +1,23 @@
+/* for main layout */
+.mainLayout {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.children {
+    background-color: var(--background-color-primary);
+}
+
+.content {
+    background-color: #FFFDFD;
+    flex-grow: 1;
+}
+
+/* this styles are for sidebar */
+.main {
+    width: 200px;
+    background-color: var(--background-color-primary);
+    margin: 0;
+    border-right: 1px solid var(--color-dark);
+}
