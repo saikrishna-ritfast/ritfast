@@ -1,7 +1,6 @@
 import styles from '../styles/shellStyles/Sidebar.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTruck } from "@fortawesome/free-regular-svg-icons";
-import { Popover, Button } from "antd";
 
 const Sidebar = () => {
     return (
@@ -11,11 +10,11 @@ const Sidebar = () => {
                 <h1>Ritfast</h1>
             </div>
             <ul>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Dealers</a></li>
-                <li><a href="#">Users</a></li>
-                <li><a href="#">Track</a></li>
-                <li><a href="#">Settings</a></li>
+                <li><a href="#"><i className="bi bi-speedometer2"></i>Dashboard</a></li>
+                <li><a href="#"><i className="bi bi-shop"></i>Dealers</a></li>
+                <li><a href="#"><i className="bi bi-people"></i>Users</a></li>
+                <li><a href="#"><i className="bi bi-geo-alt"></i>Track</a></li>
+                <li><a href="#"><i className="bi bi-gear"></i>Settings</a></li>
             </ul>
         </div>
     )
