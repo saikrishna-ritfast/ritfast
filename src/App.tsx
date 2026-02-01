@@ -1,12 +1,25 @@
 import './App.css'
-import Layout from './pages/Layout'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Dealers from './pages/Dealers';
+import Dashboard from './pages/Dashboard';
+import Users from './pages/Users';
+import Track from './pages/Track';
+import Settings from './pages/Settings';
+import Home from './pages/Home';
 
 function App() {
 
   return (
-    <Layout >
-      <h1>Welcome to Ritfast 2026</h1>
-    </Layout>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dealers" element={<Dealers />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/users" element={<Users />} />
+        <Route path="/track" element={<Track />} />
+        <Route path="/settings" element={<Settings />} />
+      </Routes>
+    </Router>
   )
 }
 

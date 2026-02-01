@@ -3,6 +3,7 @@
     --background-color-secondary: #F9FAFB;
     --background-color-tertiary: #F1F3F599;
     --background-color-quaternary: #E9F7FF;
+    --background-color-quinary: #c0c4c76e;
     --color-text-primary: #2C2E32;
     --color-text-secondary: #5E6175;
     --color-text-tertiary: #545860;
@@ -12,9 +13,12 @@
     --color-text-septenary: #FF6E3D;
     --color-text-octonary: #006EC9;
     --color-success: #26A48A;
+    --color-success-light: #DDFDEA;
     --color-error: #FF4954;
+    --color-error-light: #FFE6E7;
     --color-dark: #00000014;
-
+    --color-warm-light: #FEF4DB;
+    --color-cool-light: #E9F7FF;
     --border-radius-primary: 4px;
     --border-radius-secondary: 8px;
     --border-radius-tertiary: 6px;
@@ -24,6 +28,8 @@
     --shadow-primary: 2px 0px 8px 0px #00000008;
 
     --font-size-primary: 14px;
+    --font-size-secondary: 16px;
+    --font-size-tertiary: 20px;
 }
 
 
