@@ -6,6 +6,13 @@
     border: 1px solid var(--background-color-quinary);
 }
 
+.pagination {
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* Header */
 .thead {
     background-color: var(--background-color-secondary);
