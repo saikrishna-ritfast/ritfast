@@ -6,7 +6,7 @@ import { Pagination } from 'antd';
 
 const CommonTable = <T,>({ columns, data }: CommonTableProps<T>) => {
     return (
-        <>
+        <div className={styles.tableContainer} >
             <table className={styles.table}>
                 <thead className={styles.thead}>
                     <tr>
@@ -48,7 +48,7 @@ const CommonTable = <T,>({ columns, data }: CommonTableProps<T>) => {
                 styles={{ item: { padding: '0px' } }}
                 total={data.length} showSizeChanger showQuickJumper showTotal={(total) => `Total ${total} items`}
             />
-        </>
+        </div>
     );
 };
 

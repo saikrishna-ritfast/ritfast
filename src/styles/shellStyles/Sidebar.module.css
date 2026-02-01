@@ -7,10 +7,11 @@
 
 .children {
     background-color: var(--background-color-primary);
-    padding: 20px;
+    padding: 23px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    height: calc(100vh - 60px);
 }
 
 .content {
