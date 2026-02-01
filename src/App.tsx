@@ -5,7 +5,7 @@ function App() {
 
   return (
     <Layout >
-      <h1>Ritfast</h1>
+      <h1>Welcome to Ritfast 2026</h1>
     </Layout>
   )
 }

@@ -1,6 +1,8 @@
 :root {
     --background-color-primary: #ffffff;
     --background-color-secondary: #F9FAFB;
+    --background-color-tertiary: #F1F3F599;
+    --background-color-quaternary: #E9F7FF;
     --color-text-primary: #2C2E32;
     --color-text-secondary: #5E6175;
     --color-text-tertiary: #545860;
@@ -19,7 +21,9 @@
 
     --ring-color: rgba(66, 153, 225, 0.6);
 
-    --shadow-primary: 2px 0px 8px 0px #00000005;
+    --shadow-primary: 2px 0px 8px 0px #00000008;
+
+    --font-size-primary: 14px;
 }
 
 

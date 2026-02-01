@@ -18,6 +18,64 @@
 .main {
     width: 200px;
     background-color: var(--background-color-primary);
-    margin: 0;
     border-right: 1px solid var(--color-dark);
+    box-shadow: var(--shadow-primary);
+    padding: 20px 10px;
+}
+
+.logo {
+    border-radius: var(--border-radius-primary);
+    background-color: var(--background-color-tertiary);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-inline-start: 23px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.logo h1 {
+    font-size: var(--font-size-primary);
+    color: var(--color-text-tertiary);
+    font-weight: 600;
+}
+
+.icon {
+    height: 13px;
+    color: var(--color-text-tertiary);
+}
+
+.logo:hover h1,
+.logo:hover .icon {
+    color: var(--color-text-primary);
+}
+
+.main ul {
+    list-style: none;
+    margin-block-start: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main ul li {
+    height: 40px;
+    padding-inline-start: 23px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: var(--border-radius-primary);
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: var(--color-text-tertiary);
+    font-size: var(--font-size-primary);
+    font-weight: 600;
+}
+
+.main ul li:hover,
+.main ul li:hover a {
+    background-color: var(--background-color-quaternary);
+    color: var(--color-text-octonary);
 }

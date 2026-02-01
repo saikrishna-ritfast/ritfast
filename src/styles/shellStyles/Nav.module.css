@@ -1,14 +1,85 @@
-.main {
+.mainNavabar {
     margin: 0;
     align-items: center;
     justify-content: flex-end;
     display: flex;
     height: 60px;
     border-bottom: 1px solid var(--color-dark);
+    padding-inline: 30px;
+    color: var(--color-text-secondary);
+    box-shadow: var(--shadow-primary);
 }
 
-.main img,
-.main i {
-    width: 1.5rem;
-    color: black;
+.icon {
+    height: 1.1rem;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.icon:hover {
+    color: var(--color-text-primary);
+}
+
+.popoverBox {
+    width: 270px;
+}
+
+.popoverTitle {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 23px;
+    gap: 4px;
+    border-bottom: 1px solid var(--color-dark);
+    padding-bottom: 10px;
+}
+
+.popoverTitle h1,
+.popoverTitle p {
+    font-size: var(--font-size-primary);
+    color: var(--color-text-tertiary);
+    font-weight: 600;
+}
+
+.popoverTitle p {
+    color: var(--color-text-primary);
+}
+
+.popoverTitle h1 {
+    opacity: 0.4;
+    font-weight: 400;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul li {
+    height: 40px;
+    padding-inline-start: 23px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: var(--border-radius-primary);
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--color-text-tertiary);
+    font-size: var(--font-size-primary);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul li:hover,
+ul li:hover a {
+    background-color: var(--background-color-quaternary);
+    color: var(--color-text-octonary);
 }
