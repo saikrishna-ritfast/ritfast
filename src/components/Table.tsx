@@ -2,7 +2,7 @@ import styles from '../styles/table.module.css'
 import type { CommonTableProps } from '../utils/tableData'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSnowflake } from "@fortawesome/free-regular-svg-icons";
-import { Pagination } from 'antd';
+// import { Pagination } from 'antd';
 
 const CommonTable = <T,>({ columns, data }: CommonTableProps<T>) => {
     return (
