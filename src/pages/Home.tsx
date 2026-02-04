@@ -1,8 +1,6 @@
-import React from 'react'
-
 const Home = () => {
     return (
-        <div>Home</div>
+        <div>Welcome to Ritefast CRM to manage your customers</div>
     )
 }
 
