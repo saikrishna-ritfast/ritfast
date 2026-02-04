@@ -2,7 +2,7 @@ import styles from '../styles/table.module.css'
 import type { CommonTableProps } from '../utils/tableData'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSnowflake } from "@fortawesome/free-regular-svg-icons";
-import { Pagination } from 'antd';
+// import { Pagination } from 'antd';
 
 const CommonTable = <T,>({ columns, data }: CommonTableProps<T>) => {
     return (
@@ -46,10 +46,10 @@ const CommonTable = <T,>({ columns, data }: CommonTableProps<T>) => {
                     </tbody>
                 </table>
             </div>
-            <Pagination className={styles.pagination}
+            {/* <Pagination className={styles.pagination}
                 styles={{ item: { padding: '0px' } }}
                 total={data.length} showSizeChanger showQuickJumper showTotal={(total) => `Total ${total} items`}
-            />
+            /> */}
         </div>
     );
 };
