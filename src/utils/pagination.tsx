@@ -1,13 +1,24 @@
-// import Pagination from '@mui/material/Pagination';
-// import Stack from '@mui/material/Stack';
+import { Pagination } from 'antd';
+import paginationStyles from '../styles/pagination.module.css'
 
-// export default function PaginationOutlined() {
-//   return (
-//     <Stack spacing={2}>
-//       <Pagination count={10} variant="outlined" />
-//       <Pagination count={10} variant="outlined" color="primary" />
-//       <Pagination count={10} variant="outlined" color="secondary" />
-//       <Pagination count={10} variant="outlined" disabled />
-//     </Stack>
-//   );
-// }
+type PaginationProps = {
+    total: number,
+    current: number,
+    pageSize: number,
+    onPageChange: (Page: number, pageSize: number) => void
+}
+
+export default function PaginationOutlined({ total, pageSize, current, onPageChange }: PaginationProps) {
+    return (
+        <div>
+            <Pagination
+                className={paginationStyles.pagination}
+                total={total}
+                showTotal={(total, range) => `${range[0]}-${range[1]} of ${total} items`}
+                current={current}
+                pageSize={pageSize}
+                onChange={onPageChange}
+            />
+        </div>
+    );
+}
