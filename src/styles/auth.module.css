@@ -1,0 +1,77 @@
+.authContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.buttonSocial {
+    border: none;
+    color: var(--background-color-primary);
+    cursor: pointer;
+    padding: 6px 10px;
+    min-width: 350px;
+    height: 35px;
+    font-family: var(--font-family-primary);
+    font-weight: 600;
+}
+
+.buttonSocialFacebook {
+    background-color: #3f51b5;
+}
+
+.buttonSocialGoogle {
+    background-color: #f44336;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formContainer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.onSubmitBtn {
+    border: none;
+    color: var(--background-color-primary);
+    cursor: pointer;
+    padding: 6px 10px;
+    min-width: 350px;
+    height: 35px;
+    font-family: var(--font-family-primary);
+    font-weight: 600;
+    background-color: var(--color-dark-bold);
+    transition: all 0.3s ease;
+}
+
+.onSubmitBtn:hover {
+    opacity: .6;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-text-octonary);
+    font-weight: 600;
+    font-size: var(--font-size-primary);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.text {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-primary)
+}
+
+.checkbox {
+    height: 11px;
+}

@@ -17,6 +17,7 @@
     --color-error: #FF4954;
     --color-error-light: #FFE6E7;
     --color-dark: #00000014;
+    --color-dark-bold: #000000;
     --color-warm-light: #FEF4DB;
     --color-cool-light: #E9F7FF;
     --border-radius-primary: 4px;
@@ -30,6 +31,8 @@
     --font-size-primary: 14px;
     --font-size-secondary: 16px;
     --font-size-tertiary: 20px;
+    --box-shadow-primary: 0 0 0 3px var(--background-color-quaternary);
+
 }
 
 

@@ -6,6 +6,8 @@ import Users from './pages/Users';
 import Track from './pages/Track';
 import Settings from './pages/Settings';
 import Home from './pages/Home';
+import SignIn from './pages/Auth/login';
+import Register from './pages/Auth/Register';
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/SignIn" element={<SignIn />} />
+        <Route path="/SignUp" element={<Register />} />
         <Route path="/dealers" element={<Dealers />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/users" element={<Users />} />
