@@ -6,11 +6,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { Divider } from "antd";
 import { useNavigate } from "react-router-dom";
+import ParticleBackground from "../../components/ParticleBackground";
 
 const SignIn = () => {
     const navigate = useNavigate();
     return (
         <div className={styles.authContainer} >
+            <ParticleBackground />
             <div className={styles.formContainer}>
                 <button className={`${styles.buttonSocial} ${styles.buttonSocialFacebook}`} >
                     <span><FontAwesomeIcon icon={faFacebookF} /></span> Sign In with Facebook

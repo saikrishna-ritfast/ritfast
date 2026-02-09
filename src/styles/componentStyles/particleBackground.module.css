@@ -1,0 +1,9 @@
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+    /* background: radial-gradient(#e2d822d3, #2bdddd29); */
+}
